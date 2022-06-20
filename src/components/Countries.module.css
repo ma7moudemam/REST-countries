@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(207, 26%, 17%);
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(207, 26%, 17%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.filter input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: hsl(209, 23%, 22%);
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.5rem;
+    margin-left: 130px;
+    text-indent: 15px;
+}
+
+.filter input::placeholder{
+    color: #fff;
+    font-size: .8rem;
+}
+
+.filter select{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: hsl(209, 23%, 22%);
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.5rem;
+    margin-right: 130px;
+    cursor: pointer;
+}
+
+.filter select option{
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    background-color: hsl(209, 23%, 22%);
+    transition: .5s;
+}
+
+
+.countries{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    grid-template: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.loading{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.laodBtn{
+    margin-top:100px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size:1.5rem;
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    transition: 1s;
+    box-shadow: 4px 4px 8px -3px rgba(255,255,255,0.25);
+
+}
+
+.laodBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(255,255,255,0.25);
+}
+
+.error{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    height: 36vh;
+}

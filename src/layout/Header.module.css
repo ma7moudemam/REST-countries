@@ -1,0 +1,24 @@
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(209, 23%, 22%);
+    color: #fff;
+}
+
+header h1{
+    margin-left: 50px;
+    font-size: 1.7rem;
+}
+
+.mood{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.mood i{
+    margin-right: 10px;
+}
