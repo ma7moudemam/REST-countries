@@ -12,6 +12,20 @@ This is a solution to the [REST Countries API with color theme switcher](https:/
 ## Overview
 
 
+### The challenge
+
+challenge is to integrate with the [REST Countries API](https://restcountries.com) to pull country data and display it like in the designs.
+
  ### Design
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
+
+### Links
+
+- Live Site URL: [Github Pages](https://rest-countries-8180b.web.app/)
+
+
+## Author
+
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ma7moudemam)
+- Twitter - [@yourusername](https://twitter.com/m7moud_emam2)
