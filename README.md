@@ -12,6 +12,6 @@ This is a solution to the [Room homepage challenge on Frontend Mentor]([https://
 ## Overview
 
 
- ##design
+ ### Design
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
