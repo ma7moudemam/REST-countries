@@ -27,5 +27,5 @@ challenge is to integrate with the [REST Countries API](https://restcountries.co
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ma7moudemam)
-- Twitter - [@yourusername](https://twitter.com/m7moud_emam2)
+- Frontend Mentor - [Frontend Mentor](https://www.frontendmentor.io/profile/ma7moudemam)
+- Twitter - [Twitter](https://twitter.com/m7moud_emam2)
